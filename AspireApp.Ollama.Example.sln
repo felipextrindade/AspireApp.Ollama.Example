@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireApp.Ollama.Example.Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireApp.Ollama.Example.Domain", "AspireApp.Ollama.Example.Domain\AspireApp.Ollama.Example.Domain.csproj", "{495856DC-74D4-464B-B030-1FF5BC91F05D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.Ollama.Example.Infrastructure", "Aspire.Ollama.Example.Infrastructure\Aspire.Ollama.Example.Infrastructure.csproj", "{FA3F5DC4-9D5D-454C-8574-A6E102281E2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{495856DC-74D4-464B-B030-1FF5BC91F05D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{495856DC-74D4-464B-B030-1FF5BC91F05D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{495856DC-74D4-464B-B030-1FF5BC91F05D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA3F5DC4-9D5D-454C-8574-A6E102281E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA3F5DC4-9D5D-454C-8574-A6E102281E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA3F5DC4-9D5D-454C-8574-A6E102281E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA3F5DC4-9D5D-454C-8574-A6E102281E2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-using AspireApp.Ollama.Example.AppHost.Extensions;
+using AspireApp.Ollama.Example.Infrastructure.Extensions;
 
 var builder = DistributedApplication.CreateBuilder(args);
 

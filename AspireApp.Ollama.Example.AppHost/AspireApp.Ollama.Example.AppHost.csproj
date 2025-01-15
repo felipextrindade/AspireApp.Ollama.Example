@@ -11,15 +11,19 @@
     <UserSecretsId>99933555-844e-43f6-a97a-2a4857e9f8c5</UserSecretsId>
   </PropertyGroup>
 
+
+
   <ItemGroup>
     <ProjectReference Include="..\AspireApp.Ollama.Example.ApiService\AspireApp.Ollama.Example.ApiService.csproj" />
-    <ProjectReference Include="..\AspireApp.Ollama.Example.Domain\AspireApp.Ollama.Example.Domain.csproj" />
     <ProjectReference Include="..\AspireApp.Ollama.Example.ServiceDefaults\AspireApp.Ollama.Example.ServiceDefaults.csproj" />
+
+    <ProjectReference Include="..\Aspire.Ollama.Example.Infrastructure\Aspire.Ollama.Example.Infrastructure.csproj">
+      <IsAspireProjectResource>false</IsAspireProjectResource>
+    </ProjectReference>
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Aspire.Hosting.AppHost" Version="9.0.0" />
-    <PackageReference Include="CommunityToolkit.Aspire.Hosting.Ollama" Version="9.1.0" />
   </ItemGroup>
 
 
