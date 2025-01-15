@@ -1,4 +1,4 @@
-﻿namespace AspireApp.Ollama.Example.AppHost.Extensions
+﻿namespace AspireApp.Ollama.Example.Infrastructure.Extensions
 {
     public static class OllamaBuilderExtensions
     {
